@@ -12,6 +12,9 @@ body{
 .mt-14{
   margin-top: 14px;
 }
+.mb-14{
+  margin-bottom: 14px;
+}
 .pd8{
   padding: 8px;
 }
@@ -230,6 +233,9 @@ background-color: #008cbe;
   margin-bottom: 0;
   color: #fff;
 }
+.thumbnail{
+  margin: 8px;
+}
 /* sitemap*/
 .u-sitemap{
   background:#ddd;
@@ -364,14 +370,15 @@ background-color: #008cbe;
 
 /*u-expertInfo-tit*/
 .u-expertInfo-tit{
-  padding-left: 38px;
+  padding-left: 42px;
   padding-top: 4px;
   padding-bottom: 4px;
   font-weight: bold;
-  background: url(../images/icon-expert-tit.png) left center no-repeat;
+  background: url(../images/icon-expert-tit.png) 8px center no-repeat;
 }
 .u-expertInfo-text{
   margin-bottom: 20px;
+  padding: 8px;
   font-size: 14px;
   color: #000;
   line-height: 150%;
